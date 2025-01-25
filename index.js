@@ -65,7 +65,8 @@ function CemberinCevresi(yaricap) {
 */
 
 function CemberinAlani(/* kodlar buraya */) {
-  return pi * Math.pow(yaricap,2)
+  const alan = pi * Math.pow(yaricap,2);
+  return alan;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
